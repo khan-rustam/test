@@ -1,11 +1,13 @@
 --extra-index-url https://download.pytorch.org/whl/cpu
 torch==2.5.1+cpu
 torchvision==0.20.1+cpu
-Pillow
-fastapi
-uvicorn
-python-multipart
-SQLAlchemy
-bcrypt
-PyJWT
-python-dotenv
+Pillow==10.0.0
+fastapi==0.104.1
+uvicorn==0.24.0
+python-multipart==0.0.6
+SQLAlchemy==2.0.23
+bcrypt==4.1.1
+PyJWT==2.8.1
+python-dotenv==1.0.0
+gunicorn==21.2.0
+flask-cors==4.0.0

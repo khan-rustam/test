@@ -16,8 +16,9 @@ database.db
 # Uploaded images
 uploads/
 
-# Model weights (large files — store separately or use Git LFS)
-*.pth
+# Model weights - These are tracked in git (42MB each, well within GitHub limits)
+# Uncomment next line only if you use models >100MB (then use Git LFS instead)
+# *.pth
 
 # Logs
 *.log
